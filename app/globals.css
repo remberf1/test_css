@@ -8,3 +8,12 @@
 --color-Slate-900: hsl(218, 44%, 22%);
 
 }
+@theme{
+   --color-Green-500: hsl(158, 36%, 37%);
+--color-Green-700: hsl(158, 42%, 18%);
+--color-Black: hsl(212, 21%, 14%);
+--color-Grey: hsl(228, 12%, 48%);
+--color-Cream: hsl(30, 38%, 92%)
+
+
+}
