@@ -35,9 +35,9 @@ const responsive = () => {
           </div>
           <div className="py-2 pb-4 lg:pb-10">
             <p className="text-md text-Grey leading-6 lg:text-lg lg:leading-7">
-              <span>A floral, solar and voluptuous interpretation </span>
-              <span>Composed by Olivier Polge, </span>
-              <span> Perfumer-Creator for the House of CHANEL.</span>
+              A floral, solar and voluptuous interpretation 
+              Composed by Olivier Polge, 
+              Perfumer-Creator for the House of CHANEL.
             </p>
           </div>
           <div className="flex flex-row items-center pb-4 lg:pb-10"><p className="pr-4 text-Green-500 font-bold text-4xl">$149.99</p><p className="text-xs text-Grey line-through">$169.99</p></div>

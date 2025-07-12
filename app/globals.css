@@ -15,5 +15,11 @@
 --color-Grey: hsl(228, 12%, 48%);
 --color-Cream: hsl(30, 38%, 92%)
 
+}
 
+@theme{
+--color-Yellow: hsl(47, 88%, 63%);
+--color-Gray-500: hsl(0, 0%, 42%);
+--color-Gray-950: hsl(0, 0%, 7%);
+--shadow-right-bottom: 8px 8px 0px 0px ;
 }
