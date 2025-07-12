@@ -5,7 +5,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: '/',
-        destination: '/users/new',
+        destination: '/users/Blog',
         permanent: false, // or true if you want a permanent redirect
       },
     ]
