@@ -32,3 +32,12 @@
 --color-Grey-800: hsl(0, 0%, 12%);
 --color-Grey-900: hsl(0, 0%, 8%)
 }
+
+@theme{
+   --color-Red: hsl(0, 78%, 62%);
+--color-Cyan: hsl(180, 62%, 55%);
+--color-Orange: hsl(34, 97%, 64%);
+--color-Blue: hsl(212, 86%, 64%);
+--color-Grey-500: hsl(234, 12%, 34%);
+--color-Grey-400: hsl(212, 6%, 44%);
+}
