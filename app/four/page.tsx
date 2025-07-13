@@ -8,7 +8,7 @@ const pop = Poppins({
 
 const Four = () => {
   return (
-    <div className={`${pop.className} px-7 min-h-screen py-25 bg-gray-100`}>
+    <div className={`${pop.className} px-7 min-h-screen py-15 bg-gray-100`}>
       <div className="flex flex-col text-center ">
         <p className="text-gray-500 text-3xl font-thin mb-4 ">
           Reliable, efficient delivery
