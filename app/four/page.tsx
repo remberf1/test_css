@@ -8,20 +8,20 @@ const pop = Poppins({
 
 const Four = () => {
   return (
-    <div className={`${pop.className} px-7 min-h-screen py-10 bg-gray-100`}>
-      <div className="flex flex-col text-center">
-        <p className="text-gray-500 text-3xl font-thin mb-1 mt-14">
+    <div className={`${pop.className} px-7 min-h-screen py-25 bg-gray-100`}>
+      <div className="flex flex-col text-center ">
+        <p className="text-gray-500 text-3xl font-thin mb-4 ">
           Reliable, efficient delivery
         </p>
         <p className="text-3xl font-bold text-gray-500 mb-6">
           Powered by Technology
         </p>
-        <p className="text-gray-400 text-xl mb-10 max-w-2xl mx-auto">
+        <p className="text-gray-400 text-xl mb-5 max-w-2xl mx-auto">
           Our Artificial Intelligence powered tools use millions of project data points to ensure that your project is successful.
         </p>
       </div>
 
-      <div className="grid gap-6 md:grid-cols-3 md:grid-rows-2 max-w-6xl mx-auto mt-16">
+      <div className="grid gap-8 md:grid-cols-3 md:grid-rows-2 max-w-6xl mx-auto mt-10">
         {/* 1. Supervisor (left column, 2 rows) */}
         <div className="md:row-span-2 md:flex md:items-center md:h-full">
           <Card2
