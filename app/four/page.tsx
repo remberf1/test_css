@@ -10,10 +10,10 @@ const Four = () => {
   return (
     <div className={`${pop.className} px-7 min-h-screen py-15 bg-gray-100`}>
       <div className="flex flex-col text-center ">
-        <p className="text-gray-500 text-3xl font-thin mb-4 ">
+        <p className="text-gray-500 text-2xl md:text-3xl font-thin mb-4 ">
           Reliable, efficient delivery
         </p>
-        <p className="text-3xl font-bold text-gray-500 mb-6">
+        <p className="md:text-3xl text-2xl font-bold text-gray-500 mb-6">
           Powered by Technology
         </p>
         <p className="text-gray-400 text-xl mb-5 max-w-2xl mx-auto">
