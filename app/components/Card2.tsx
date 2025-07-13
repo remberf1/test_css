@@ -4,27 +4,22 @@ interface CardProps {
   title: string;
   description: string;
   image: string;
-  color: string;
+  colorClass: string; // changed from "color"
 }
 
-export default function Card2({ title, description, image, color }: CardProps) {
+export default function Card2({ title, description, image, colorClass }: CardProps) {
   return (
-    <div className="flex  gap-4  ">
-      <div className={`border-t-[6px] rounded-lg bg-white py-10  p-4 px-10 text-left justify-end shadow-md shadow-Grey-500 `}
-       style={{ borderTopColor: `var(${color})` }}
-      >
-        <p className="font-bold mt-3 pb-4 text-2xl text-Grey-500">{title}</p>
-        <p className="text-Grey-400 text-lg">{description}</p>
-      <div>
+    <div className={`rounded-lg bg-white py-10 px-8 text-left shadow-lg ${colorClass} border-t-[6px]`}>
+      <p className="font-bold mt-3 pb-4 text-2xl text-gray-700">{title}</p>
+      <p className="text-gray-500 text-lg">{description}</p>
+      <div className="mt-10 flex justify-end">
         <Image
           src={image}
-          alt="Avatar"
-          width={80}
-          height={80}
-          className="mt-10 ml-70"
-          />
+          alt={`${title} icon`}
+          width={64}
+          height={64}
+        />
       </div>
     </div>
-          </div>
   );
 }
