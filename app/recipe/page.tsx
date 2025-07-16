@@ -13,7 +13,7 @@ const outfit = Outfit({
 
 const Recipe = () => {
   return (
-    <div className="lg:bg-Stone-100 min-h-screen py-8 flex justify-center">
+    <div className="lg:bg-Stone-100 min-h-screen lg:py-8 flex justify-center">
 
     <div className="lg:px-12 lg:max-w-6xl lg:bg-white lg:rounded-2xl ">
 
