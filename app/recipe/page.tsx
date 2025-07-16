@@ -29,7 +29,7 @@ const Recipe = () => {
 </div>
 <div className="px-12 lg:px-0">
     <div className="py-8">
-    <p className={`${young.className} text-Stone-900  max-w-sm text-4xl l lg:text-6xl lg:max-w-6xl`}>
+    <p className={`${young.className} text-Stone-900  max-w-sm text-3xl l lg:text-6xl lg:max-w-6xl`}>
     Simple Omelette Recipe
     </p>
     <p className={ `text-Gray-500 py-4 lg:max-w-[940px] lg:text-2xl`}> An easy and quick dish, perfect for any meal. This classic omelette combines beaten eggs cooked 
